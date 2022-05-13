@@ -12,8 +12,8 @@ export default new Router({
       component: Home
     },
     {
-      path: '/todos',
-      component: () => import('./views/Todos.vue')
+      path: '/login',
+      component: () => import('./views/Login.vue')
     }
   ]
 })
